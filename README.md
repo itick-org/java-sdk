@@ -2,6 +2,8 @@
 
 Java 语言版本的 iTick API SDK，提供基础、股票、指数、期货、基金、外汇、加密货币数据的 REST API 查询和 WebSocket 实时数据订阅功能。
 
+# 官网地址：[https://itick.org](https://itick.org)
+
 ## 功能特性
 
 - 支持 REST API 查询基础、股票、指数、期货、基金、外汇、加密货币数据
