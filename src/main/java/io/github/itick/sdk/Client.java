@@ -93,7 +93,7 @@ public class Client {
     }
     
     public void connectWebSocket(String path) throws URISyntaxException {
-        this.wsPath = path;
+        this.wsPath = path+"?token="+this.token;
         this.isRunning.set(true);
         connectWebSocketInternal();
     }
@@ -305,7 +305,7 @@ public class Client {
     }
 
     public void connectStockWebSocket() throws URISyntaxException {
-        connectWebSocket("/websocket/stock");
+        connectWebSocket("/stock");
     }
 
     // 指数模块
@@ -376,7 +376,7 @@ public class Client {
     }
 
     public void connectIndicesWebSocket() throws URISyntaxException {
-        connectWebSocket("/websocket/indices");
+        connectWebSocket("/indices");
     }
 
     // 期货模块
@@ -447,7 +447,7 @@ public class Client {
     }
 
     public void connectFutureWebSocket() throws URISyntaxException {
-        connectWebSocket("/websocket/future");
+        connectWebSocket("/future");
     }
 
     // 基金模块
@@ -518,7 +518,7 @@ public class Client {
     }
 
     public void connectFundWebSocket() throws URISyntaxException {
-        connectWebSocket("/websocket/fund");
+        connectWebSocket("/fund");
     }
 
     // 外汇模块
@@ -589,7 +589,7 @@ public class Client {
     }
 
     public void connectForexWebSocket() throws URISyntaxException {
-        connectWebSocket("/websocket/forex");
+        connectWebSocket("/forex");
     }
 
     // 加密货币模块
@@ -660,6 +660,6 @@ public class Client {
     }
 
     public void connectCryptoWebSocket() throws URISyntaxException {
-        connectWebSocket("/websocket/crypto");
+        connectWebSocket("/crypto");
     }
 }
