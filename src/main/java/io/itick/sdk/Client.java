@@ -1,4 +1,4 @@
-package io.github.itick.sdk;
+package io.itick.sdk;
 
 import com.google.gson.Gson;
 import okhttp3.OkHttpClient;

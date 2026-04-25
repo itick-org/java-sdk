@@ -1,4 +1,4 @@
-import io.github.itick.sdk.Client;
+package io.itick.sdk;
 
 public class WebsocketTestClient {
     public static void main(String[] args) {
