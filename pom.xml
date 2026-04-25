@@ -29,9 +29,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/itick/java-sdk.git</connection>
-        <developerConnection>scm:git:ssh://github.com/itick/java-sdk.git</developerConnection>
-        <url>https://github.com/itick/java-sdk</url>
+        <connection>scm:git:git://github.com/itick-org/java-sdk.git</connection>
+        <developerConnection>scm:git:ssh://github.com/itick-org/java-sdk.git</developerConnection>
+        <url>https://github.com/itick-org/java-sdk</url>
     </scm>
 
     <properties>
