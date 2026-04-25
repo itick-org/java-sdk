@@ -5,7 +5,7 @@
 
     <groupId>io.itick</groupId>
     <artifactId>sdk</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <packaging>jar</packaging>
 
     <name>iTick SDK</name>
@@ -22,7 +22,7 @@
     <developers>
         <developer>
             <name>itick</name>
-            <email>itick200@gmail.com</email>
+            <email>support@itick.org</email>
             <organization>iTick</organization>
             <organizationUrl>https://itick.org</organizationUrl>
         </developer>
