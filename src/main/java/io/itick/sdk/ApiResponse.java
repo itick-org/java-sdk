@@ -1,4 +1,4 @@
-package io.github.itick.sdk;
+package io.itick.sdk;
 
 public class ApiResponse<T> {
     private int code;
