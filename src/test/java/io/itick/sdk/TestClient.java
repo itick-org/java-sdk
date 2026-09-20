@@ -9,6 +9,7 @@ public class TestClient {
         // 使用真实API密钥
         String token = "8850*****************ee4127087";
         Client client = new Client(token);
+        //client.setWssBaseUrl("wss://api0.itick.org");
         client.setMessageHandler(message -> {
             System.out.println("Received message: " + message);
         });

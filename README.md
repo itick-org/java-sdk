@@ -22,7 +22,7 @@ Java 语言版本的 iTick API SDK，提供基础、股票、指数、期货、�
 <dependency>
     <groupId>io.itick</groupId>
     <artifactId>sdk</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.3</version>
 </dependency>
 ```
 
@@ -31,7 +31,7 @@ Java 语言版本的 iTick API SDK，提供基础、股票、指数、期货、�
 在您的 `build.gradle` 中添加以下依赖：
 
 ```gradle
-implementation 'io.itick:sdk:0.1.1'
+implementation 'io.itick:sdk:0.1.3'
 ```
 
 ### 从源码构建

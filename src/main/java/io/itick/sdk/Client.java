@@ -24,8 +24,11 @@ import java.util.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Client {
-    private static final String BASE_URL = "https://api.itick.org";
-    private static final String WSS_URL = "wss://api.itick.org";
+    public static final String DEFAULT_BASE_URL = "https://api.itick.org";
+    public static final String DEFAULT_WSS_URL = "wss://api.itick.org";
+
+    private String BASE_URL = DEFAULT_BASE_URL;
+    private String WSS_URL = DEFAULT_WSS_URL;
     
     // WebSocket constants
     private static final int PING_INTERVAL = 3000; // 30 seconds
@@ -946,5 +949,23 @@ public class Client {
 
     public void connectCryptoWebSocket() throws URISyntaxException {
         connectWebSocket("/crypto");
+    }
+
+    /**
+     * set HTTP Base URL
+     *
+     * @param httpBaseUrl HTTP Base URL
+     */
+    public void setHttpBaseUrl(String httpBaseUrl) {
+        this.BASE_URL = httpBaseUrl;
+    }
+
+    /**
+     * set WebSocket Base URL
+     *
+     * @param wssBaseUrl WebSocket Base URL
+     */
+    public void setWssBaseUrl(String wssBaseUrl) {
+        this.WSS_URL = wssBaseUrl;
     }
 }
